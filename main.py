@@ -45,7 +45,14 @@ if __name__ == "__main__":
     # create xArm_Motion object
     xArm_corn = xArm_Motion.xArm_Motion(args.ip)
     xArm_corn.initialize_robot()
-    
+
+    #print count down 3,2,1
+    for i in range(3,0,-1):
+        print(f" starting in {i}... ")
+        time.sleep(1)
+
+    # perform series of motion for conrn insertion
+    xArm_corn.simple_blind_insert_motions()
 
 
     print(" ================ completed script ============ ")
