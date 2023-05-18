@@ -32,3 +32,8 @@ pip install pycairo PyGObject
 cd [write_your_path_to_directory]
 git clone https://github.com/MarkLee634/xArm_CMU_CornInsert.git
 ```
+
+# running
+```
+python main.py
+```
