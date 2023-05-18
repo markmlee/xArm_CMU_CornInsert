@@ -15,6 +15,7 @@ git clone https://github.com/MarkLee634/xArm_CMU_CornInsert.git
 ```
 
 # running
+To run with the FSM that interacts with xArm 
 ```
 python main.py
 ```
