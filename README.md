@@ -18,3 +18,8 @@ git clone https://github.com/MarkLee634/xArm_CMU_CornInsert.git
 ```
 python main.py
 ```
+
+To run a simple open-loop sequence of xArm motions for corn insert using only the python SDK
+```
+python main_openloop.py
+```
